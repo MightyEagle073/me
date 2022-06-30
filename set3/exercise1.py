@@ -17,7 +17,12 @@ def loop_ranger(start, stop=None, step=1):
     Look up for how range() works in the python docs. You could  answer this
     with just the range function, but we'd like you to do it the long way.
     """
-    return None
+    number_return = []
+    counter = start
+    while counter < stop:
+        number_return.append(counter)
+        counter = counter + step
+    return number_return
 
 
 def two_step_ranger(start, stop):
@@ -28,7 +33,12 @@ def two_step_ranger(start, stop):
 
     You can either reuse loop_ranger, or the range function that in the standard library
     """
-    return None
+    number_return = []
+    counter = start
+    while counter < stop:
+        number_return.append(counter)
+        counter = counter + 2
+    return number_return
 
 
 def stubborn_asker(low, high):
@@ -39,7 +49,12 @@ def stubborn_asker(low, high):
 
     Look up the docs for a function called "input"
     """
-    return None
+    repeat_loop = 1
+    while repeat_loop == 1:
+        inputted = int(input(f"Enter a number between {low} and {high}. "))
+        if inputted > low and inputted < high:
+            repeat_loop = 0
+    return inputted
 
 
 def not_number_rejector(message):
@@ -49,7 +64,14 @@ def not_number_rejector(message):
     (e.g. "cow", "six", "8!") then throw it out and ask for an actual number.
     When you do get a number, return it.
     """
-    return None
+    repeat_loop = 1
+    while repeat_loop == 1:
+        inputted = input(f"Enter a number. ")
+        if (inputted.isdigit()) or (
+            inputted.startswith("-") and inputted[1:].isdigit()
+        ):
+            repeat_loop = 0
+    return inputted
 
 
 def super_asker(low, high):
@@ -58,7 +80,15 @@ def super_asker(low, high):
     Combine what you learnt from stubborn_asker and not_number_rejector
     to make a function that does it all!
     """
-    return None
+    repeat_loop = 1
+    while repeat_loop == 1:
+        inputted = input(f"Enter a number between {low} and {high}. ")
+        if (inputted.isdigit()) or (
+            inputted.startswith("-") and inputted[1:].isdigit()
+        ):
+            if int(inputted) > low and int(inputted) < high:
+                repeat_loop = 0
+    return inputted
 
 
 if __name__ == "__main__":

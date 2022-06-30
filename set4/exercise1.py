@@ -128,10 +128,13 @@ def pokedex(low=1, high=5):
         r = requests.get(url)
         if r.status_code is 200:
             the_json = r.json()
-            print(the_json)
             local_pokedex.append(the_json)
 
-    res = {"name": the_json["name"], "weight": None, "height": None}
+    res = {
+        "name": the_json["name"],
+        "weight": the_json["weight"],
+        "height": the_json["height"],
+    }
 
     return res
 
@@ -160,11 +163,11 @@ if __name__ == "__main__":
     print(get_some_details())
 
     wp = wordy_pyramid()
-    [print(f"{word} {len(word)}") for word in wp]
+    print([(f"{word} {len(word)}") for word in wp])
 
     print(pokedex(low=3, high=7))
 
-    # diarist()
+    diarist()
 
     in_root = os.path.isfile("lasers.pew")
     in_set4 = os.path.isfile("set4/lasers.pew")
