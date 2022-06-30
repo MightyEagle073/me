@@ -40,7 +40,20 @@ def get_some_details():
     json_data = open(LOCAL + "/lazyduck.json").read()
 
     data = json.loads(json_data)
-    return {"lastName": None, "password": None, "postcodePlusID": None}
+
+    d = data["results"][0]
+    lastName = d["name"]["last"]
+    password = d["login"]["password"]
+    postcode = d["location"]["postcode"]
+    ID = d["id"]["value"]
+
+    result = {
+        "lastName": lastName,
+        "password": password,
+        "postcodePlusID": postcode + int(ID),
+    }
+
+    return result
 
 
 def wordy_pyramid():
@@ -77,7 +90,20 @@ def wordy_pyramid():
     ]
     TIP: to add an argument to a URL, use: ?argName=argVal e.g. &wordlength=
     """
+    len = 1
+    max_reached = False
+    url = "https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength="
     pyramid = []
+
+    while len != 4:
+        if len == 19:
+            max_reached = True
+            len = 22
+        if (max_reached) == False:
+            len = len + 2
+        else:
+            len = len - 2
+        pyramid.append(requests.get(url + str(len)).text)
 
     return pyramid
 
@@ -96,13 +122,18 @@ def pokedex(low=1, high=5):
          get very long. If you are accessing a thing often, assign it to a
          variable and then future access will be easier.
     """
-    id = 5
-    url = f"https://pokeapi.co/api/v2/pokemon/{id}"
-    r = requests.get(url)
-    if r.status_code is 200:
-        the_json = json.loads(r.text)
+    local_pokedex = []
+    for id in range(low, high):
+        url = f"https://pokeapi.co/api/v2/pokemon/{id}"
+        r = requests.get(url)
+        if r.status_code is 200:
+            the_json = r.json()
+            print(the_json)
+            local_pokedex.append(the_json)
 
-    return {"name": None, "weight": None, "height": None}
+    res = {"name": the_json["name"], "weight": None, "height": None}
+
+    return res
 
 
 def diarist():
@@ -133,7 +164,7 @@ if __name__ == "__main__":
 
     print(pokedex(low=3, high=7))
 
-    diarist()
+    # diarist()
 
     in_root = os.path.isfile("lasers.pew")
     in_set4 = os.path.isfile("set4/lasers.pew")
