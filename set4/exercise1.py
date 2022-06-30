@@ -150,7 +150,7 @@ def diarist():
     TIP: remember to commit 'lasers.pew' and push it to your repo, otherwise
          the test will have nothing to look at.
     TIP: this might come in handy if you need to hack a 3d print file in the future.
-
+    hello
     NOTE: this function doesn't return anything. It has the _side effect_ of modifying the file system
     """
     pass
