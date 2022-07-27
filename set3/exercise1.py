@@ -67,10 +67,11 @@ def not_number_rejector(message):
     repeat_loop = 1
     while repeat_loop == 1:
         inputted = input(f"Enter a number. ")
-        if (inputted.isdigit()) or (
-            inputted.startswith("-") and inputted[1:].isdigit()
-        ):
+        try:
+            inputted = int(inputted)
             repeat_loop = 0
+        except:
+            repeat_loop = 1
     return inputted
 
 
@@ -83,11 +84,12 @@ def super_asker(low, high):
     repeat_loop = 1
     while repeat_loop == 1:
         inputted = input(f"Enter a number between {low} and {high}. ")
-        if (inputted.isdigit()) or (
-            inputted.startswith("-") and inputted[1:].isdigit()
-        ):
-            if int(inputted) > low and int(inputted) < high:
+        try:
+            inputted = int(inputted)
+            if inputted > low and inputted < high:
                 repeat_loop = 0
+        except:
+            repeat_loop = 1
     return inputted
 
 

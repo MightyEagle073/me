@@ -123,17 +123,22 @@ def pokedex(low=1, high=5):
          variable and then future access will be easier.
     """
     local_pokedex = []
+    heaviest_name = 0
+    heaviest_weight = 0
+    heaviest_height = 0
     for id in range(low, high):
         url = f"https://pokeapi.co/api/v2/pokemon/{id}"
         r = requests.get(url)
         if r.status_code is 200:
             the_json = r.json()
-            local_pokedex.append(the_json)
-
+        if the_json["weight"] > heaviest_weight:
+            heaviest_name = the_json["name"]
+            heaviest_weight = the_json["weight"]
+            heaviest_height = the_json["height"]
     res = {
-        "name": the_json["name"],
-        "weight": the_json["weight"],
-        "height": the_json["height"],
+        "name": heaviest_name,
+        "weight": heaviest_weight,
+        "height": heaviest_height,
     }
 
     return res
