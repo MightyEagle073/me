@@ -309,15 +309,15 @@ def random_filler_text(number_of_words=200) -> str:
         e.g. random.randint(low, high)
     """
 
-    # my_dict = make_filler_text_dictionary()
+    my_dict = make_filler_text_dictionary()
 
-    # words = []
+    words = []
 
-    # for i in range(number_of_words):
-    #     length_of_word = math.ceil(random.randint(3, 7))
-    #     index_of_word = math.ceil(random.randint(0, 3))
-    #     words.append(my_dict[str(length_of_word)][index_of_word])
-    # return " ".join(words)
+    for i in range(number_of_words):
+        length_of_word = math.ceil(random.randint(3, 7))
+        index_of_word = math.ceil(random.randint(0, 3))
+        words.append(my_dict[str(length_of_word)][index_of_word])
+    return " ".join(words)
 
 
 def fast_filler(number_of_words=200) -> str:
@@ -334,11 +334,11 @@ def fast_filler(number_of_words=200) -> str:
     it'll convert integer keys to strings.
     If you get this one to work, you are a Very Good Programmer™!
     """
-    # LOCAL = os.path.dirname(os.path.realpath(__file__))
-    # fname = "dict_cache.json"
+    LOCAL = os.path.dirname(os.path.realpath(__file__))
+    fname = "dict_cache.json"
 
-    # newfile = open(f"{LOCAL}/{fname}", "w", encoding="utf-8")
-    # newfile.write(make_filler_text_dictionary())
+    newfile = open(f"{LOCAL}/{fname}", "w", encoding="utf-8")
+    newfile.write(json.dumps(make_filler_text_dictionary()))
 
     return None
 
