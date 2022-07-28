@@ -161,7 +161,14 @@ def diarist():
     hello
     NOTE: this function doesn't return anything. It has the _side effect_ of modifying the file system
     """
-    pass
+
+    textfile = open(f"{LOCAL}/Trispokedovetiles(laser).gcode", "r", encoding="utf-8")
+    m10_p1_occurances = str(textfile.read().count("M10 P1"))
+    textfile.close()
+    print(m10_p1_occurances)
+    newfile = open(f"{LOCAL}/lasers.pew", "w", encoding="utf-8")
+    newfile.write(m10_p1_occurances)
+    newfile.close()
 
 
 if __name__ == "__main__":
