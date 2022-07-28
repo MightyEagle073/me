@@ -361,19 +361,23 @@
   },
   {
     "of_total": 15,
-    "mark": 7,
+    "mark": 9,
     "results": [
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n yaply"
+        "name": "exercise 1: get_a_word_of_length_n iodol"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n wabblers"
+        "name": "exercise 1: get_a_word_of_length_n yattered"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n iuds"
+        "name": "exercise 1: get_a_word_of_length_n ywca"
+      },
+      {
+        "value": 1,
+        "name": "exercise 1: get_a_word_of_length_n None"
       },
       {
         "value": 1,
@@ -381,14 +385,10 @@
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n None"
-      },
-      {
-        "value": 0,
         "name": "exercise 1: list_of_words_with_lengths {word}"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "exercise 1: list_of_words_with_lengths {word}"
       },
       {
