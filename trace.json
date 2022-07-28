@@ -361,19 +361,19 @@
   },
   {
     "of_total": 15,
-    "mark": 4,
+    "mark": 7,
     "results": [
       {
-        "value": 0,
-        "name": "exercise 1: get_a_word_of_length_n None"
+        "value": 1,
+        "name": "exercise 1: get_a_word_of_length_n yaply"
       },
       {
-        "value": 0,
-        "name": "exercise 1: get_a_word_of_length_n None"
+        "value": 1,
+        "name": "exercise 1: get_a_word_of_length_n wabblers"
       },
       {
-        "value": 0,
-        "name": "exercise 1: get_a_word_of_length_n None"
+        "value": 1,
+        "name": "exercise 1: get_a_word_of_length_n iuds"
       },
       {
         "value": 1,
