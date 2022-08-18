@@ -1,0 +1,289 @@
+[33mcommit 0bf991c8e537ba8df526e85508283a958e252322[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Oscar Liang <utuensw@gmail.com>
+Date:   Thu Jul 28 18:07:06 2022 +1000
+
+    28/07 final exam commit
+
+[33mcommit 1e95814528d80f3f4b061c5bef67e071a5101a35[m
+Author: Oscar Liang <utuensw@gmail.com>
+Date:   Thu Jul 28 17:07:21 2022 +1000
+
+    28/07 exam save 1
+
+[33mcommit b6fe9a81d53eebb6f8774b26ed51bb3848c3c5e2[m
+Author: Oscar Liang <utuensw@gmail.com>
+Date:   Thu Jul 28 14:19:39 2022 +1000
+
+    28/07 set 5_1 commit
+
+[33mcommit 35c2affff761a95ee4ac5de51f9bfa4f716b5d02[m
+Author: Oscar Liang <utuensw@gmail.com>
+Date:   Thu Jul 28 14:02:37 2022 +1000
+
+    28/07 set 5-1 a commit
+
+[33mcommit 078a98a8ca4ffb752b26e0788f7380397a87ff73[m
+Author: Oscar Liang <utuensw@gmail.com>
+Date:   Thu Jul 28 13:33:48 2022 +1000
+
+    28/07 set 4 commit
+
+[33mcommit aa260065f0aef16f77e965f0655774b1ed83f27f[m
+Author: Oscar Liang <utuensw@gmail.com>
+Date:   Wed Jul 27 16:35:21 2022 +1000
+
+    27/07 exercise 3 complete
+
+[33mcommit 3e8846268b07961e35e956d2d247a17f91381583[m
+Author: Oscar Liang <utuensw@gmail.com>
+Date:   Wed Jul 27 14:31:10 2022 +1000
+
+    27/07 commit
+
+[33mcommit f58b6b0e419733f433dfb5ee5db4b01aaceaa06d[m
+Author: Oscar Liang <utuensw@gmail.com>
+Date:   Fri Jul 1 02:53:04 2022 +1000
+
+    1/7 transfer 1
+
+[33mcommit 2ccca745392db4865946fe0b2cf52f380d553342[m
+Author: Oscar Liang <utuensw@gmail.com>
+Date:   Thu Jun 30 16:12:08 2022 +1000
+
+    add hello
+
+[33mcommit 08fd23dd1f2581c77a77c7668bacd0df42ccd235[m
+Author: Oscar Liang <utuensw@gmail.com>
+Date:   Thu Jun 30 16:10:01 2022 +1000
+
+    bulk disaster commit
+
+[33mcommit f51a373cb053a61a9f7f405401d6f2ba1983f8e8[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Tue May 31 10:06:47 2022 +1000
+
+    clarify a lot of docstrings
+
+[33mcommit ae6f9961a593f5b45b85dc8afffa765390de8dda[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:40:46 2022 +1000
+
+    use vars
+
+[33mcommit 9baffb0085871f0d24842b26a6168c0ac339ec02[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:37:36 2022 +1000
+
+    remove old file
+
+[33mcommit 00b561e362dd1e124f4da4fbbe70b565a84977ef[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:37:27 2022 +1000
+
+    correct the end bit
+
+[33mcommit 4f35a6b1e342a459775b3fb412b1841b1131e0c5[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:22:15 2022 +1000
+
+    use f strings
+
+[33mcommit 506b18efcb11d34f6fed2a044e319be70c84fc6f[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:59:02 2022 +1000
+
+    make pyramid cleareer
+
+[33mcommit dde2c330f3fea5da453c209a3e5183fe60e602f2[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:58:01 2022 +1000
+
+    reorganise the capsule
+
+[33mcommit 383c7795df47edd18b7ae41f3e55ede903c3d14f[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:53:39 2022 +1000
+
+    make list comp more obvious
+
+[33mcommit b0041c5d3afe489c84394aeed9c7993172784c31[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:53:18 2022 +1000
+
+    add with example
+
+[33mcommit ead1b4d325f95eaf5ee099dbffd469fddedebab3[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:51:16 2022 +1000
+
+    clearer docstrings
+
+[33mcommit 8515d467aacacde28490235ae04edc602876a007[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:51:03 2022 +1000
+
+    remove lone ranger
+
+[33mcommit 78eebb8961931206eedbd9e252a23b143498993b[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Mon May 16 11:43:05 2022 +1000
+
+    repo tidy up
+
+[33mcommit 352cfcfcb1067d2d37cb136e71b947fa900809b6[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Sat May 7 12:22:36 2022 +1000
+
+    add some comments to make it clearer what to do in this file
+    
+    It was a bit mysterious before
+    Hopefully this it more valuable
+
+[33mcommit ff7eb0a89c55b90c534dafcebdbbca7c0207ce96[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 19:26:04 2022 +1000
+
+    reset to base
+
+[33mcommit 1e32d5d9f2ea82cd854a353f32e7c0ea0bb8cead[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 19:24:44 2022 +1000
+
+    update docs link to go somewhere useful
+
+[33mcommit 11b50827c12b9e766fce8cd1d26f9d69baa9fa16[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 19:12:47 2022 +1000
+
+    Change map to list comp
+    
+    Now that it's py3 map returns itterator, not a list.
+    This doesn't work easily with the following lines
+
+[33mcommit 7637a67ab176461298f35fe9bf54f091446df6a7[m
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 17:12:50 2022 +1000
+
+    Update contact details
+    
+    Because I needed to.
+    @constuname told me to...
+
+[33mcommit 26db73abac3116bbf137899cce4f43e15cf52107[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 3 16:28:31 2021 +1000
+
+    ignore rope
+
+[33mcommit ee1cbcea7eb98fc5fc6882317abd100353a2ff46[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 3 16:27:58 2021 +1000
+
+    final updates
+
+[33mcommit 6c177229dae90d38e207281bdd05b027381e7032[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun May 30 15:49:41 2021 +1000
+
+    change week to set
+
+[33mcommit 18c8826d9b02b7e22ebedb1ea55cc53208c40eb1[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun May 30 15:41:09 2021 +1000
+
+    rename weeks
+
+[33mcommit b8682bdd942dece3f0528c0f25a05d31d6fb3af9[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jul 22 13:41:48 2020 +1000
+
+    Actually commit changes, don't be a scumbag
+
+[33mcommit e905c4391c79b852fee2397b23ad39d517b4832d[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jul 22 12:21:24 2020 +1000
+
+    better doc strings
+
+[33mcommit d77757539da99a31630899463948c376c07a5482[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jul 15 08:49:49 2020 +1000
+
+    add more explanitory text
+
+[33mcommit 95d2297abf4328e1594df46eace5a4292516a281[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jun 10 14:42:50 2020 +1000
+
+    clearer instructions
+
+[33mcommit 5fa9ed73c098cbfb76bfa6f289d81e62d0ef97d7[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Tue Jun 2 19:42:17 2020 +1000
+
+    clearer docstring
+
+[33mcommit 72ced4f9122a73109ccd6090832d07993ac12d35[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Tue Jun 2 18:28:37 2020 +1000
+
+    Pull exam
+
+[33mcommit 39d5d6c6235affc87b3d729a31d3e60dd64dfbcd[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 27 21:53:41 2019 +1000
+
+    remove base
+
+[33mcommit e00a0f6b5061379a36d4a78f933aee7b78db46fa[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 27 21:52:59 2019 +1000
+
+    pokedex exercise
+
+[33mcommit 908b40573a10a6172b77b11bdcd1c45ada636cc2[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 27 21:52:50 2019 +1000
+
+    extra tip about 3d printing
+
+[33mcommit 79eca502d0d3dfb18cc9136b9a5cb15087faf326[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 6 15:29:21 2019 +1000
+
+    not needed
+
+[33mcommit 493f38b7bcd6c0d3fb497a8ad30f72eca2b81fc5[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 6 15:27:28 2019 +1000
+
+    remove the exam, closes #4
+
+[33mcommit ddddad8c797aa99fbfb6e5410c21d58036d2b2da[m
+Merge: 30d5e6f 6cb3e70
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 6 13:48:43 2019 +1000
+
+    Merge pull request #5 from BaptisteHiggs/master
+    
+     Typo fixes, clearer wording, updating links, & other miscellaneous changes
+
+[33mcommit 6cb3e70e4bed84acda6716182410ec11e83ee805[m
+Author: BaptisteHiggs <16fogterminator@gmail.com>
+Date:   Mon Jun 3 21:56:20 2019 +1000
+
+    Typo fixes, clearer wording, updating links, & other miscellaneous changes
+
+[33mcommit 30d5e6ffa47550731ef6b6f2600b652c8d65a9f9[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Mon Jun 3 18:13:35 2019 +1000
+
+    more generic key names
+
+[33mcommit 340d283ad3e4b6706b7153a0c9200553f854b039[m
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Mon Jun 3 18:13:15 2019 +1000
+
+    add more details to the commands
+
+[33mcommit 18395ed253e8df1460cd8167439eaaba6b
